@@ -17,6 +17,19 @@ package hw20180102;
  * @see
  */
 public class Pet {
+/*场景一：
+ *  父类：酒类（wine）
+ *  子类：啤酒(beer)，白酒(JNC)；
+ *  多态的方法（degree）：啤酒度数低，白酒度数高；
+ * 场景二：
+ *  父类：学校（school）
+ *  子类：班级1，班级2
+ *  多态的方法(teach)：班级1教JAVA,班级2教UI
+ * 场景三：
+ *  父类：饮料
+ *  子类：碳酸饮料，矿泉水
+ *  多态的方法（drink）：碳酸有汽对身体无益，矿泉水无汽对身体无害
+ */
     private String name;
 
     private String game;
