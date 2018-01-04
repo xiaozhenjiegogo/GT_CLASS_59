@@ -29,6 +29,14 @@ public class TestPet {
        dog.eat();      
        cat.eat();
        rabbit.eat();
+       
+      Pet[] ary=new Pet[3];
+      for(int i=0;i<3;i++){
+          ary[0]=dog;
+          ary[1]=cat;
+          ary[2]=rabbit;
+         ary[i].eat();
+      }
      
        
     }  
